@@ -1,0 +1,88 @@
+nav a {
+    color: #000000;
+  }
+  
+  /* LOGO E NOME */
+  
+  .top-navbar__image-logo {
+    width: 40px;
+    margin-left: 20px;
+  }
+  
+  .top-navbar__title-logo a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-left: 10px;
+  }
+
+
+.page-body{
+        background-color: rgb(32, 134, 208, 0.4);
+        height: auto;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  nav a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2em;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .top-navbar {
+    background-color: rgb(32, 134, 208, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+  }
+
+.game-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.game{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    background-color: white;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background-color: blue;
+}
+
+.apple{
+    background-color: red;
+}
+
+span{
+    font-weight: 700;
+    color: red;
+}
